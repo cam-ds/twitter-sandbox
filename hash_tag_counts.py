@@ -10,12 +10,6 @@ from collections import Counter
 import vincent
 
 # Extract and visualize most frequent occured word terms associated with specified hash tags
-
-consumer_key = 'wvgm1EeaZ6g1Kp3VRr0k5bgZF'
-consumer_secret = 'nMvQcYbsJorOck7AmxyX40gDbzE7O9j6udBjjtQzVUZ7MQQFVZ'
-access_token = '19895097-bezNN4NiBvHDt565VkrWiVxtRHBpIqFtLfombp6B9'
-access_secret = 'yXy4gLXY0YQumj2uBK90GGjZX0cXebq97f3t4Z5rzzw8W'
-
 emoticons_str = r"""
     (?:
         [:=;] # Eyes
