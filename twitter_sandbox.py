@@ -9,6 +9,10 @@ from nltk.corpus import stopwords
 from collections import Counter
 import vincent
 
+# Extract tweets from Donald Trump and Hilary Clinton's account,
+# process the tweets to get most frequently occured words
+# and visualize them using Vincent
+
 emoticons_str = r"""
     (?:
         [:=;] # Eyes
